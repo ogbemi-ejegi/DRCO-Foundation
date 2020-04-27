@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Poppins';
+    color: #252529;
+    line-height: 1.6;
+    margin: 0;
+    padding-top: 3rem;
+  }
+
+  .navbar{
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: .1rem; 
+  }
+
+  .navbar-nav li{
+      padding-right: .7rem;
+  }
+
+  .navbar-light .navbar-nav .nav-link:hover{
+    color: #0E1D47 !important;
+  }
+ 
+  img{
+    width: 100%;
+  }
+
+
+  .section{
+    padding: 2rem 0;
+    background-color: #0E1D47;
+    color: #fff;
+    text-align: center;
+  }
+
+  .section-head{
+      font-size: 2.5rem;
+      margin: 0;
+  }
+
+  .section h3{
+      font-size: 2rem;
+  }
+
+  .section-main{
+      margin-top: 50vh;
+  }
+
+  #aboutus{
+      text-align: left;
+  }
+
+  
+  /*Showcase */
+  .showcase {
+      margin: 0;
+      padding: 0;
+      background: url('../images/child.jpg') no-repeat center/cover;
+      background-attachment: fixed;
+      width:100%;
+      height: 90vh;
+      position: relative;
+      overflow-y: hidden;
+      text-align: center;
+      font-weight: bold;
+      color: #fff;
+  }
+
+  .showcase .container{
+      margin-top: 25vh;
+  }
+
+  .showcase h1{
+      font-size: 4rem;
+      margin-bottom: 0;
+  }
+
+  .showcase h2{
+      font-size: 2rem;
+  }
+
+  header #sec-showcase{
+    background: url('../images/children1.jpg') no-repeat center/cover; 
+    background-attachment: fixed;
+    width:100%;
+    height: 90vh;
+    position: relative;
+    overflow-y: hidden;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .jumbotron #aboutus{
+      width: 70%;
+      color: #0E1D47;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+     
+  }
+
+  footer{
+      margin-bottom: 0;
+      margin-top: 2px;
+      padding-bottom: 0rem;
+  }
+
+  footer p{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+footer #footer-div{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+  /*Utility Classes*/
+  .push-down{
+      margin-top: 4rem;
+      margin-left: 3rem;
+  }
+
+/*
+  .navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: #171761;
+    }
+
+    .navbar-toggler-icon{
+        width: 100%;    
+        float: left;
+        height: 2px;
+        background-color: #fff;
+        margin-bottom: 5px;
+    }*/
+    
+
+  @media screen and (max-width: 580px) {
+    .hide-on-small {
+        display: none;
+    }
+    .showcase {
+        height: 50vh;
+        background: url('../images/child2.jpg') no-repeat center/cover;
+    }
+
+    .sec-showcase {
+        background: url('../images/children2.jpg') no-repeat center/cover;
+        background-attachment: fixed;
+    }
+
+    .showcase .container {
+        margin-top: 15vh;
+    }
+    
+    .showcase h1{
+        font-size: 3rem;
+    }
+
+    .showcase h2 {
+        font-size: 1.5rem;
+    }
+
+    .h1-small{
+        font-size: 1.5rem;
+    }
+    .h-margin{
+        margin-top: 1rem;
+    }
+    .card-image{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .push-down{
+        margin: 1rem;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .push-left{
+        margin-left: 0px;
+    }
+
+    .push-left p.lead{
+        font-weight: normal;
+        font-size: 1rem;
+    }
+
+    .founder{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    
+    footer p.lead{
+        font-size: 1rem;
+    }
+
+    #footer-div h3{
+        font-size: 1.5rem;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+    footer #footer-div{
+        padding: 2px;
+    }
+
+  }
+
+  
